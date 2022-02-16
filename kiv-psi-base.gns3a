@@ -1,0 +1,17 @@
+{
+    "name": "psi-base-node",
+    "category": "guest",
+    "description": "Ubuntu 20.04 Focal base image",
+    "vendor_name": "KIV",
+    "vendor_url": "http://www.kiv.zcu.cz",
+    "documentation_url": "https://github.com/maxotta/kiv-psi-base-docker",
+    "product_name": "KIV/PSI Ubuntu Base",
+    "registry_version": 3,
+    "status": "experimental",
+    "maintainer": "KIV",
+    "maintainer_email": "maxmilio@kiv.zcu.cz",
+    "docker": {
+        "adapters": 1,
+        "image": "ghcr.io/maxotta/kiv-psi-base-docker:latest"
+    }
+}

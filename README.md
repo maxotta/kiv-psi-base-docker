@@ -16,6 +16,7 @@ It adds the following packages:
 * `dnsutils` - provides [`dig`](http://manpages.ubuntu.com/manpages/focal/en/man1/dig.1.html) and [`nslookup`](http://manpages.ubuntu.com/manpages/focal/en/man1/nslookup.1.html) [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) utilities.
 * `ipcalc` - provides the [`ipcalc`](http://manpages.ubuntu.com/manpages/focal/en/man1/ipcalc.1.html) utility for calculating broadcast and network masks, host ranges and design subnets. See also [`ipcalc` website](http://jodies.de/ipcalc).
 * `vim` - provides the [`vim`](http://manpages.ubuntu.com/manpages/focal/en/man1/vim.1.html) - [Vi IMproved editor](https://en.wikipedia.org/wiki/Vim_(text_editor)).
+* `less` - provides the [`less`](http://manpages.ubuntu.com/manpages/focal/en/man1/less.1.html) utility.
 
 ## Using the image
 

@@ -11,6 +11,8 @@ RUN apt-get -y install apt-utils ; \
     apt-get -y install iproute2 ; \
     apt-get -y install iputils-ping ; \
     apt-get -y install traceroute ; \
-    apt-get -y install dnsutils
+    apt-get -y install dnsutils ; \
+    apt-get -y install ipcalc ; \
+    apt-get -y install vim
 
 CMD [ "sh", "-c", "while :; do cd; bash -i; echo '==> NOPE ! Exiting the shell would also stop the Docker container! Please close the terminal window instead.'; done" ]

@@ -1,4 +1,5 @@
 # ![PSI Logo](images/icon-64-net.png) Computer Networks Lab Base Docker Image
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 ## Introduction
 
@@ -52,3 +53,14 @@ RUN yum -q -y install python3
 ## Creating a GNS3 appliance based on this image
 
 In order to add a new host appliance based on this image, import the [psi-base-node.gns3a](psi-base-node.gns3a) appliance descriptor file into GNS3.
+
+---
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg

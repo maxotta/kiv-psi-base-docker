@@ -25,5 +25,3 @@ RUN apt-get -y install apt-utils ; \
     apt-get -y install less ;
 
 CMD [ "sh", "-c", "while :; do cd; bash -i; echo '==> NOPE ! Exiting the shell would also stop the Docker container! Please close the terminal window instead.'; done" ]
-
-# sed -e '/#/! s/^#*/#/g' -i /etc/snmp/snmp.conf

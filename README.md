@@ -21,6 +21,17 @@ It adds the following packages:
 * `curl` - provides the [`curl`](http://manpages.ubuntu.com/manpages/focal/en/man1/curl.1.html) tools for transferring data from or to a server.
 * `netcat` - provides the [`nc`](http://manpages.ubuntu.com/manpages/focal/en/man1/nc.1.html) utility fthat can open TCP connections, send UDP packets, listen on arbitrary
      TCP and UDP ports, do port scanning, and deal with both IPv4 and IPv6.
+* `LDAP Utils` - provides a set of utilities for working with [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol) services:
+    * [`ldapadd`](http://manpages.ubuntu.com/manpages/focal/en/man1/ldapadd.1.html) - add an entry to an LDAP directory.
+    * [`ldapcompare`](http://manpages.ubuntu.com/manpages/focal/en/man1/ldapcompare.1.html) - compare an entry in an LDAP directory.
+    * [`ldapdelete`](http://manpages.ubuntu.com/manpages/focal/en/man1/ldapdelete.1.html) - delete an entry from an LDAP directory.
+    * [`ldapexop`](http://manpages.ubuntu.com/manpages/focal/en/man1/ldapexop.1.html) - perform an extended operation on an LDAP directory.
+    * [`ldapmodify`](http://manpages.ubuntu.com/manpages/focal/en/man1/ldapmodify.1.html) - modify an entry in an LDAP directory.
+    * [`ldapmodrdn`](http://manpages.ubuntu.com/manpages/focal/en/man1/ldapmodrdn.1.html) - modify the RDN of an entry in an LDAP directory.
+    * [`ldapsearch`](http://manpages.ubuntu.com/manpages/focal/en/man1/ldapsearch.1.html) - search an LDAP directory.
+    * [`ldapurl`](http://manpages.ubuntu.com/manpages/focal/en/man1/ldapurl.1.html) - parse and format LDAP URLs.
+    * [`ldappasswd`](http://manpages.ubuntu.com/manpages/focal/en/man1/ldappasswd.1.html) - change a user's password in an LDAP directory.
+    * [`ldapwhoami`](http://manpages.ubuntu.com/manpages/focal/en/man1/ldapwhoami.1.html) - print the current identity to standard output.
 * `SNMP` - provides a set of tools for doing [SNMP](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol) management. These include:
     * [`snmpget`](https://manpages.ubuntu.com/manpages/focal/man1/snmpget.1.html) - an SNMP application that uses the SNMP GET request to query for information on a network entity. 
     * [`snmpgetnext`](https://manpages.ubuntu.com/manpages/focal/man1/snmpgetnext.1.html) - an SNMP application that uses the SNMP GETNEXT request to query for information on a network entity.

@@ -16,6 +16,7 @@ RUN apt-get -y install apt-utils ; \
     apt-get -y install snmp ; \
     apt-get -y install snmp-mibs-downloader ; \
     sed -e '/#/! s/^#*/#/g' -i /etc/snmp/snmp.conf ; \
+    apt-get -y install ldap-utils ; \
     apt-get -y install nmap ; \
     apt-get -y install tcpdump ; \
     apt-get -y install curl ; \

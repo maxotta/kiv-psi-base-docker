@@ -40,10 +40,13 @@ It adds the following packages:
     * [`snmpbulkwalk`](https://manpages.ubuntu.com/manpages/focal/man1/snmpbulkwalk.1.html) - is an SNMP application that uses SNMP GETBULK requests to query a network entity efficiently for a tree of information.
     * [`snmpset`](https://manpages.ubuntu.com/manpages/focal/man1/snmpset.1.html) - is an SNMP application that uses the SNMP SET request to set information on a network entity.
     * [`snmptrap`](https://manpages.ubuntu.com/manpages/focal/man1/snmptrap.1.html) - is an SNMP application that uses the SNMP TRAP operation to send information to a network manager.
-* `scapy` - provides the [`scapy`](https://manpages.ubuntu.com/manpages/focal/man1/scapy.1.html) powerful interactive packet manipulation tool, packet generator, network scanner, network discovery, packet sniffer, etc. For more information, see the [Scapy website](https://scapy.net) and the [Scapy documentation](https://scapy.readthedocs.io/en/latest/).
 * `vim` - provides the [`vim`](http://manpages.ubuntu.com/manpages/focal/en/man1/vim.1.html) - [Vi IMproved editor](https://en.wikipedia.org/wiki/Vim_(text_editor)).
+* `nano` - provides the [`nano`](http://manpages.ubuntu.com/manpages/focal/en/man1/nano.1.html) - a small, friendly text editor.
 * `less` - provides the [`less`](http://manpages.ubuntu.com/manpages/focal/en/man1/less.1.html) utility.
-
+* `Python 3` - the [Python language interpreter](https://www.python.org/) and the [`pip`](https://pypi.org/project/pip/) package manager.
+    * `NetIfaces` - is a Python module to query the network interfaces. For more information, see the [NetIfaces website](https://pypi.org/project/netifaces/).
+    * `PySNMP` - a cross-platform, pure-Python SNMP engine implementation. For more information, see the [PySNMP website](https://pypi.org/project/pysnmp/).
+    * `Scapy` - is a powerful interactive packet manipulation tool, packet generator, network scanner, network discovery, packet sniffer, etc. For more information, see the [Scapy website](https://scapy.net) and the [Scapy documentation](https://scapy.readthedocs.io/en/latest/).
 ## Using the image
 
 If you want to use this image, just pull it with
@@ -53,12 +56,12 @@ docker pull ghcr.io/maxotta/kiv-psi-base-docker:latest
 
 ## Building images based on this base
 
-Just use the `FROM <image>` clause to build a new image based on this image. If you want, form example, create a new image that adds Python 3 to the container, do it as follows:
+Just use the `FROM <image>` clause to build a new image based on this image. If you want, for example, create a new image that adds the `build-essential` package to the container, do it as follows:
 
 ```
 FROM ghcr.io/maxotta/kiv-psi-base-docker:latest
 
-RUN yum -q -y install python3
+RUN apt-get -y install build-essential
 ```
 
 ## Creating a GNS3 appliance based on this image

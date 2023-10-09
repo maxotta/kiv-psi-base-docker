@@ -20,6 +20,7 @@ It adds the following packages:
 * `tcpdump` - provides the [`tcpdump`](http://manpages.ubuntu.com/manpages/focal/en/man8/tcpdump.8.html) utility for network traffic analysis.
 * `curl` - provides the [`curl`](http://manpages.ubuntu.com/manpages/focal/en/man1/curl.1.html) tools for transferring data from or to a server.
 * `netcat` - provides the [`nc`](http://manpages.ubuntu.com/manpages/focal/en/man1/nc.1.html) utility fthat can open TCP connections, send UDP packets, listen on arbitrary
+* `telnet` - provides the [`telnet`](https://manpages.ubuntu.com/manpages/focal/man1/telnet-ssl.1.html) utility for interactive communication with another host using the TELNET protocol.
      TCP and UDP ports, do port scanning, and deal with both IPv4 and IPv6.
 * `LDAP Utils` - provides a set of utilities for working with [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol) services:
     * [`ldapadd`](http://manpages.ubuntu.com/manpages/focal/en/man1/ldapadd.1.html) - add an entry to an LDAP directory.

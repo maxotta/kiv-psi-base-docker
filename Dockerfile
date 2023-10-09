@@ -19,12 +19,13 @@ RUN apt-get -y install apt-utils ; \
     apt-get -y install nmap ; \
     apt-get -y install tcpdump ; \
     apt-get -y install curl ; \
-    apt-get -y install netcat ;
+    apt-get -y install netcat ; \
+    apt-get -y install telnet
 
 RUN apt-get -y install mc ; \
     apt-get -y install vim ; \
     apt-get -y install nano ;\
-    apt-get -y install less ;
+    apt-get -y install less
 
 RUN apt-get -y install git ; \
     apt-get -y install python3 ; \
@@ -34,6 +35,6 @@ RUN apt-get -y install git ; \
 RUN pip3 install pysnmp ; \
     pip3 uninstall pyasn1 -y ; \
     pip3 install pyasn1==0.4.8 ; \
-    pip3 install netifaces ;
+    pip3 install netifaces
 
 CMD [ "sh", "-c", "while :; do cd; bash -i; echo '==> NOPE ! Exiting the shell would also stop the Docker container! Please close the terminal window instead.'; done" ]

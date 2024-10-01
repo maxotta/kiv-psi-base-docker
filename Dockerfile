@@ -37,4 +37,6 @@ RUN pip3 install pysnmp ; \
     pip3 install pyasn1==0.4.8 ; \
     pip3 install netifaces
 
+VOLUME /src
+
 CMD [ "sh", "-c", "while :; do cd; bash -i; echo '==> NOPE ! Exiting the shell would also stop the Docker container! Please close the terminal window instead.'; done" ]

@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:20.04
 LABEL maintainer="maxmilio@kiv.zcu.cz" \
       org.opencontainers.image.source="https://github.com/maxotta/kiv-psi-docker"
 
